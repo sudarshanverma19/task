@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidenav {
+    height: 100%;
+    width: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: width 0.5s; /* Smooth transition for width */
+}
+
+.sidenav a {
+    padding: 15px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: padding 0.3s, width 0.3s; /* Smooth transition for padding and width */
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+.sidenav a:hover {
+    padding-left: 20px;
+    width: 250px;
+    color: white;
+}
+
+.sidenav .green {
+    background-color: green;
+}
+
+.sidenav .blue {
+    background-color: blue;
+}
+
+.sidenav .red {
+    background-color: red;
+}
+
+.sidenav .gray {
+    background-color: gray;
+}
+
+.main {
+    margin-left: 60px; /* Same as the width of the sidenav */
+    padding: 20px;
+}

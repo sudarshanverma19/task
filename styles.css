@@ -1,0 +1,75 @@
+.st-table{
+    width : 80%;
+    height : 30% ;
+    font-size: 16pz;
+    border: 2px solid green;
+    background-color: lightgreen;
+    border-radius: 8px;
+    
+
+}
+.st-table thead tr
+{
+    border: 1px solid green;
+    border-radius: 8px;
+    border-collapse: separate;
+    padding: 10px;
+    font-weight: bold;
+}
+.st-table tbody tr{
+    border: 1px solid black;
+    border-radius: 8px;
+    border-collapse: collapse;
+    padding: 10px;
+    font-weight: lighter;
+}
+.st-table th,
+.st-table td {
+    padding: 12px 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.st-table th:first-child,.st-table td:first-child{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.st-table th:last-child,.st-table td:last-child{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.shapes-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+    justify-items: center; /* Center the shapes within the grid cells */
+}
+
+.shape {
+    width: 80px;
+    height: 50px;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9; /* Add a background color to make the shapes visible */
+}
+.rectangle1{
+    border-radius: 0%;
+}
+.rectangle3{
+    border-radius: 20%;
+}
+.rectangle4{
+    border-bottom-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
+.rectangle5{
+    border-radius: 9%;
+}
+
+.oval {
+    border-radius: 50%;
+}
